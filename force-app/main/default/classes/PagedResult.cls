@@ -10,4 +10,6 @@ public with sharing class PagedResult {
 
     @AuraEnabled
     public Object[] records { get; set; }
+    
+    // comment for history
 }
